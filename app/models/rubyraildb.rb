@@ -1,0 +1,2 @@
+class Rubyraildb < ApplicationRecord
+end

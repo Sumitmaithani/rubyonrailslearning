@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @rubyraildb %>
+
+<div>
+  <%= link_to "Edit this rubyraildb", edit_rubyraildb_path(@rubyraildb) %> |
+  <%= link_to "Back to rubyraildbs", rubyraildbs_path %>
+
+  <%= button_to "Destroy this rubyraildb", @rubyraildb, method: :delete %>
+</div>
